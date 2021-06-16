@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(/images/contact.jpg ) no-repeat center center fixed ;
+  background-size: cover;
+
+}
+.container {
+  color: black;
+  position: absolute;
+  top: 10%;
+  /* left: 33%; */
+  width: 35%;
+  text-align: center;
+}
+.container h1 {
+  margin-bottom: 41px;
+  display: inline-block;
+  color:white;
+  font-family: "Pattaya", sans-serif;
+  padding: 3px 0px;
+  border-bottom: 4px solid white;
+}
+
+.box {
+  width: 90%;
+  padding: 0px 24px;
+  color: white;
+}
+.box input {
+  /* background: none; */
+  font-size: 15px;
+  width: 90%;
+  margin: 17px 0px;
+  padding: 11px 4px;
+  text-align: center;
+  outline: none;
+  border-radius: 7px;
+  color: black;
+  border: none;
+  border-bottom: 4px solid #088ae9;
+}
+.box i {
+  margin: 5px 7px;
+  filter: invert(1);
+}
+.btn {
+  cursor: pointer;
+  width: 24%;
+  height: 51px;
+  margin: 30px 108px;
+  padding: 10px 21px;
+  outline: none;
+  border-radius: 6px;
+  background: none;
+  color: white;
+  font-size: 21px;
+  font-family: "Pattaya", sans-serif;
+  border: 2px solid #088ae9;
+}
+.btn:hover {
+  opacity: 0.5;
+  background-color: rgb(96, 96, 218);
+}

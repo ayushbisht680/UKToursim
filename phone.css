@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1464px) {
+  .pages {
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.2s ease-out;
+    height: 383px;
+  }
+  #text {
+    width: 79px;
+  }
+  .btns {
+    padding: 2px 0px;
+    border-radius: 6px;
+    width: 29%;
+  }
+  .nav-search {
+    width: 200px;
+  }
+  .burger {
+    display: block;
+    margin-top: 9px;
+  }
+  .h-nav {
+    height: 47px;
+  }
+  .visibility {
+    opacity: 0;
+  }
+  .btn {
+    width: 102px;
+  }
+  .secondsec {
+    height: auto;
+  }
+  .image {
+    height: 100px;
+    width: 100px;
+  }
+  .big-font {
+    font-size: 17px;
+  }
+  .small-font {
+    font-size: 12px;
+  }
+  .uk {
+    height: 73px;
+    width: 90px;
+  }
+  #white {
+    font-size: 11px;
+  }
+  .small-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    padding: 0px 0px;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 1464px) {
+  .uk {
+    height: 166px;
+    width: 237px;
+  }
+  #white {
+    font-size: 20px;
+  }
+  .mid {
+    font-size: 28px;
+    padding: 10px;
+  }
+  .firstsec {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 1056px) {
+  .uk {
+    height: 161px;
+    width: 149px;
+  }
+  #white {
+    font-size: 15px;
+  }
+  .mid {
+    font-size: 17px;
+    padding: 2px;
+  }
+  .vid {
+    font-size: 205%;
+  }
+}
+@media only screen and (max-width: 625px) {
+  .uk {
+    height: 83px;
+    width: 77px;
+  }
+  #white {
+    font-size: 9px;
+  }
+  .mid {
+    font-size: 11px;
+    padding: 0px;
+  }
+  .vid {
+    font-size: 190%;
+  }
+}
+@media only screen and (max-width: 406px) {
+  .uk {
+    height: 71px;
+    width: 58px;
+  }
+  #white {
+    font-size: 8px;
+  }
+  .mid {
+    font-size: 10px;
+    padding: 0px;
+  }
+  .vid {
+    font-size: 170%;
+  }
+}

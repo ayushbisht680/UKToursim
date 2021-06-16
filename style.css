@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+.logo {
+  width: 26%;
+}
+.logo img {
+  width: 150px;
+}
+.pages {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.pages a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+.pages li {
+  padding: 21px 26px;
+  list-style: none;
+}
+.pages a:hover {
+  color: rgb(13, 13, 14);
+}
+.nav-search {
+  width: 50%;
+  text-align: right;
+}
+.nav-search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7) url("../images/bg.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+  /* opacity: 0.7; */
+}
+
+.box {
+  color: white;
+  /* margin: auto; */
+  max-width: 60%;
+  height: 65%;
+}
+.firstsec {
+  height: 100vh;
+}
+.firsthalf {
+  display: flex;
+  width: 67%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-font {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  padding: 13px 0px;
+  font-weight: bold;
+}
+.small-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding: 9px 0px;
+  font-weight: bold;
+}
+.btns {
+  padding: 6px 0px;
+  margin: 8px 6px;
+  width: 8%;
+  border: 2px solid white;
+  border-radius: 7px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+}
+#text {
+  height: 22px;
+  border: 3px solid black;
+  border-radius: 6px;
+  padding: 0px 0px;
+  margin: 0px 12px;
+}
+.btn {
+  padding: 5px 0px;
+  margin: 12px 6px;
+  width: 16%;
+  border: 2px solid white;
+  border-radius: 7px;
+  background: none;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: black;
+}
+.secondsec {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  margin: 0px 35px;
+}
+.left {
+  flex-direction: row-reverse;
+}
+.image {
+  width: 270px;
+  margin: 0px 10px;
+  border-radius: 12px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #f4f1f8;
+}
+#video {
+  width: 69%;
+  height: 50%;
+  padding: 12px;
+}
+.vid {
+  font-size: 246%;
+  padding: 18px;
+}
+.mid {
+  text-align: center;
+  max-width: 27%;
+  margin: auto;
+  height: 33px;
+  color: black;
+}
+.info {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-evenly;
+  text-align: center;
+  max-width: 79%;
+  margin: auto;
+  background-color: #2c2c2e;
+}
+.uk {
+  height: 206px;
+  width: 363px;
+  padding: 10px;
+  margin: 16px 0px;
+}
+#uk {
+  height: 75%;
+  width: 99%;
+  text-align: center;
+}
+#white {
+  color: white;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ee9dae;
+  height: 200px;
+  margin-top: 18px;
+}
+.foot {
+  width: 122px;
+}
+#foot {
+  padding: 21px;
+}
+#last {
+  background-color: #221d1d;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.last {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  font-family: "Merriweather", serif;
+}
+.burger {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 2%;
+}
+.line {
+  background-color: rgb(25 25 24);
+  width: 29px;
+  height: 4px;
+  margin: 3px;
+}
